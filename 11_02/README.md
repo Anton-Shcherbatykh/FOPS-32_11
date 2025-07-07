@@ -10,15 +10,18 @@
 
 ### Задание 2. Memcached
 Установите и запустите memcached.
+
 Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.
 ![alt text](https://github.com/Anton-Shcherbatykh/FOPS-32_11/blob/main/11_02/Pictures/Picture_2.jpg)
 
 ### Задание 3. Удаление по TTL в Memcached
 Запишите в memcached несколько ключей с любыми именами и значениями, для которых выставлен TTL 5.
+
 Приведите скриншот, на котором видно, что спустя 5 секунд ключи удалились из базы.
 ![alt text](Pictures/Picture_3.jpg)
 
 ### Задание 4. Запись данных в Redis
 Запишите в Redis несколько ключей с любыми именами и значениями.
+
 Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.
 ![alt text](Pictures/Picture_4.jpg)
